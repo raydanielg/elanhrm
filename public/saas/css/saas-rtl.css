@@ -1,0 +1,23 @@
+/* RTL CSS */
+.rtl {
+    direction: rtl;
+    text-align: right;
+    overflow-x: hidden;
+}
+.rtl .lang-selector {
+    flex-direction: row-reverse;
+}
+.rtl .gap-3 {
+    gap: 1.5rem;
+}
+.rtl .ml-auto {
+    margin-right: auto !important;
+    margin-left: 0px !important;
+}
+.rtl #testimonial-slider {
+    direction: ltr;
+}
+.rtl .nav-item {
+    padding-right: 0px !important;
+    padding-left: 35px !important;
+}

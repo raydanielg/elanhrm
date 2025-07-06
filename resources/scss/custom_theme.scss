@@ -1,0 +1,426 @@
+body {
+    color: #2d3748;
+    font-size: 0.875rem;
+    line-height: 1.6;
+}
+
+.sidebar-light {
+    .main-sidebar {
+        background-color: #f8fafc;
+        border-right: 1px solid rgba(0, 0, 0, 0.05);
+    }
+}
+
+.main-container {
+    background-color: #ffffff;
+}
+
+
+.card.b-shadow-4.border-0,
+.w-tables {
+    border: 1px solid rgba(0, 0, 0, 0.08) !important;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+
+.e-d-tasks-projects-events,
+.admin-dashboard {
+    .col-md-6 {
+        .bg-white.b-shadow-4 {
+            border: 1px solid #e9ebec !important;
+            box-shadow: none;
+        }
+    }
+
+    h5.f-15 {
+        font-size: 13px !important;
+        margin-bottom: 0.5rem !important;
+        color: #6a6c78 !important;
+    }
+}
+
+.sidebar-menu li {
+    box-shadow: none !important;
+
+    .nav-item {
+        font-size: 13px !important;
+        padding: 8px 20px;
+        display: flex;
+        align-items: center;
+        transition: all 0.2s ease;
+        border-radius: 6px;
+        margin: 2px 8px;
+
+        &:hover {
+            background-color: rgba(0, 0, 0, 0.04);
+        }
+
+        svg {
+            width: 16px;
+            height: 16px;
+            opacity: 0.75;
+        }
+    }
+
+    .accordionItemContent a {
+        font-size: 13px !important;
+        padding: 0.2rem 1.2rem;
+    }
+
+    .accordionItemContent.pb-2 {
+        padding-bottom: 0 !important;
+    }
+
+    .menu-item-count {
+        margin-left: auto;
+        z-index: 1;
+        line-height: .95;
+        padding: 0.25em 0.6em;
+        border-radius: 20px;
+        font-size: 0.7em;
+        font-weight: 500;
+    }
+}
+
+.sidebar-brand-dropdown {
+
+    .dropdown-item.f-15,
+    label {
+        margin-bottom: 0;
+        font-size: 13px !important;
+    }
+}
+
+.s-b-inner.s-b-notifications.bg-white.b-shadow-4 {
+    box-shadow: none;
+    border: 1px solid #e9ebec !important;
+}
+
+.settings-menu {
+    li a {
+        font-size: 13px !important;
+        padding: 7px 24px !important;
+    }
+}
+
+.settings-sidebar {
+    border-right: 1px solid #dee2e6 !important;
+}
+
+.settings-box {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+
+    .s-b-n-header {
+        .f-21 {
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        .nav-item.f-15 {
+            font-size: 13px !important;
+        }
+    }
+}
+
+.card-body.p-0,
+.card-body {
+    padding: 1.25rem !important;
+}
+
+.p-20 {
+    padding: 1.25rem !important;
+}
+
+.project-header .project-menu .p-sub-menu span {
+    padding: 8px 13px;
+    font-size: 13px;
+}
+
+.openIt .accordionItemContent {
+    display: flex;
+    flex-direction: column;
+    gap: 3px
+}
+
+.sidebar-toggled {
+
+    .sidebar-menu li {
+
+        .nav-item {
+            font-size: 13px !important;
+            padding: 10px 20px 10px 20px;
+            display: flex;
+            align-items: center;
+
+            span.pl-3 {
+                padding-left: 0.5rem !important;
+            }
+
+            svg {
+                width: 14px;
+                height: 14px;
+            }
+        }
+
+    }
+
+    .accordionItemContent {
+        display: none !important;
+    }
+}
+
+.card,
+.nav-item,
+.dropdown-item {
+    transition: all 0.2s ease;
+}
+
+// Add custom scrollbar for modern browsers
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 4px;
+
+    &:hover {
+        background: #a8a8a8;
+    }
+}
+
+// Enhanced card hover effects
+.card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+    &:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+            0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    }
+}
+
+// Modern form elements
+input,
+select,
+textarea {
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    padding: 0.5rem 0.75rem;
+    transition: all 0.2s ease;
+
+    &:focus {
+        border-color: #4f46e5;
+        box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+        outline: none;
+    }
+}
+
+// Enhanced buttons
+.btn {
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+
+    &:hover {
+        transform: translateY(-1px);
+    }
+
+    &:active {
+        transform: translateY(0);
+    }
+}
+
+// Modern table styles
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+
+    th,
+    td {
+        border: 1px solid #e2e8f0;
+        padding: 0.75rem 1rem;
+
+        &:first-child {
+            border-left: 1px solid #e2e8f0;
+        }
+    }
+
+    th {
+        background: #f8fafc;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 0.75rem;
+        letter-spacing: 0.05em;
+    }
+
+    tr:hover td {
+        background-color: #f8fafc;
+    }
+}
+
+// Enhanced dropdown styles
+.dropdown-menu {
+    border: none;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+        0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    padding: 0.5rem;
+
+    .dropdown-item {
+        border-radius: 6px;
+        padding: 0.5rem 1rem;
+
+        &:hover {
+            background-color: #f8fafc;
+        }
+    }
+
+}
+
+// Modern badge styles
+.badge {
+    padding: 0.35em 0.65em;
+    border-radius: 20px;
+    font-weight: 500;
+    letter-spacing: 0.025em;
+}
+
+// Loading skeleton animation
+.skeleton-loading {
+    background: linear-gradient(90deg,
+            rgba(#f1f5f9, 0.6) 25%,
+            rgba(#f1f5f9, 0.8) 37%,
+            rgba(#f1f5f9, 0.6) 63%);
+    background-size: 400% 100%;
+    animation: skeleton-loading 1.4s ease infinite;
+}
+
+@keyframes skeleton-loading {
+    0% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+// Modern alert styles
+.alert {
+    border: none;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+
+    &-success {
+        background-color: #f0fdf4;
+        color: #166534;
+    }
+
+    &-danger {
+        background-color: #fef2f2;
+        color: #991b1b;
+    }
+
+    &-warning {
+        background-color: #fffbeb;
+        color: #92400e;
+    }
+
+    &-info {
+        background-color: #f0f9ff;
+        color: #075985;
+    }
+}
+
+// Modern tooltip
+[data-tooltip] {
+    position: relative;
+
+    &:before {
+        content: attr(data-tooltip);
+        position: absolute;
+        bottom: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 0.5rem 1rem;
+        background: #1f2937;
+        color: white;
+        border-radius: 4px;
+        font-size: 0.875rem;
+        white-space: nowrap;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.2s ease;
+    }
+
+    &:hover:before {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+// Glass morphism effect for special elements
+.glass-effect {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
+}
+
+// Modern switch toggle
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 44px;
+    height: 24px;
+
+    input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+
+        &:checked+.slider {
+            background-color: #4f46e5;
+
+            &:before {
+                transform: translateX(20px);
+            }
+        }
+    }
+
+    .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #e2e8f0;
+        transition: .4s;
+        border-radius: 34px;
+
+        &:before {
+            position: absolute;
+            content: "";
+            height: 18px;
+            width: 18px;
+            left: 3px;
+            bottom: 3px;
+            background-color: white;
+            transition: .4s;
+            border-radius: 50%;
+        }
+    }
+}

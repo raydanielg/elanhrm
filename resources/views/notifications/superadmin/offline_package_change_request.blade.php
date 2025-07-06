@@ -1,0 +1,2 @@
+<x-cards.notification :notification="$notification"  :link="route('superadmin.offline-plan.show', $notification->data['id'])" :image="global_setting()->logo_url"
+    :title="__('superadmin.offlinePackageChangeRequest.subject', ['company' => $notification->data['company_name']])" :text="__('superadmin.offlinePackageChangeRequest.text', ['company' => $notification->data['company_name']])" :time="$notification->created_at" />
